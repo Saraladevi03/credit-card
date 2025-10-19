@@ -1,0 +1,96 @@
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 100px;
+position: relative;
+  background: 
+              radial-gradient(circle at bottom right, rgba(215, 165, 116, 0.4), transparent 60%),
+              #000;
+  padding: 80px 10%;
+  color: white;
+  min-height: 90vh;
+    font-family: 'Rowdies', sans-serif;
+
+}
+
+
+
+.section1-left {
+  position: relative;
+  width: 550px; 
+  height: 400px; 
+}
+
+.machine-image {
+  position: relative; 
+  z-index: 2; 
+  width: 100%;
+  height: auto;
+  left: -330px;
+  bottom: 190px;
+}
+
+.card-image {
+  position: absolute;
+  top: -170px; 
+  left: -45%; 
+  transform: translateX(-50%); 
+  width: 389px; 
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+
+
+.section1-right {
+    position: absolute;
+    right: 70px;
+    width: 600px;
+  flex: 1;
+  padding-left: 60px;
+}
+
+.section1-right h1 {
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+}
+
+.section1-right p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #d7d7d7;
+}
+
+.section1-right button {
+  background: #d7a574; 
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.section1-right button:hover {
+  transform: translateY(-3px);
+}
+.pay {
+  position: absolute;
+  top: 30px;
+  left: -4%;
+  font-weight: 600;
+  transform: translateX(-50%);
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 1.4rem;
+  color: black; 
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: 200px;
+  z-index: 3;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(215, 165, 116, 0.4), 0 0 10px rgba(215, 165, 116, 0.4); 
+}
